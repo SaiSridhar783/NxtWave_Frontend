@@ -13,7 +13,7 @@ function NavBar({count, status}) {
         <h1>Emoji Game</h1>
       </div>
       {status ? (
-        <div>
+        <div className="medium">
           <p>Score: {count}</p>
           <p>Top Score: {localStorage.getItem('emojiGame') || '0'}</p>
         </div>

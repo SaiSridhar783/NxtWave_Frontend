@@ -5,7 +5,7 @@ import './index.css'
 function WinLossCard({status, count, playAgainHandler}) {
   return (
     <section>
-      <div>
+      <div className="stats">
         <h1>You {status}</h1>
         <p>{status === 'Won' ? 'Best Score' : 'Score'}</p>
         <p className="h2">{count}/12</p>
@@ -13,7 +13,7 @@ function WinLossCard({status, count, playAgainHandler}) {
           Play Again
         </button>
       </div>
-      <div>
+      <div className="image">
         <img
           src={`https://assets.ccbp.in/frontend/react-js/${status.toLowerCase()}-game-img.png`}
           alt={status}

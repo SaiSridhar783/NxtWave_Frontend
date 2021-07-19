@@ -41,7 +41,7 @@ button:hover {
 }
 
 h1 {
-  font-size: 4.5rem;
+  font-size: 3rem;
 }
 
 section p {
@@ -49,4 +49,26 @@ section p {
   margin: 0;
   padding: 0;
   font-weight: bold;
+}
+
+section img {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    flex-direction: column;
+  }
+
+  .image {
+    order: -1;
+  }
+
+  section img {
+    width: 60vw;
+  }
+
+  section h1 {
+    font-size: 280%;
+  }
 }
