@@ -1,0 +1,13 @@
+/* Write your code here. */
+.card {
+  background-color: #ffffff33;
+  border-radius: 30px;
+  border: 4px #ffffff30 solid;
+  padding: 3rem;
+  margin: 1.5rem;
+  outline: 0;
+}
+
+.card:hover {
+  cursor: pointer;
+}

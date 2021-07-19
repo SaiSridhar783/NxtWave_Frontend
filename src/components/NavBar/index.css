@@ -1,0 +1,21 @@
+/* Write your code here. */
+.navbar {
+  display: flex;
+  padding: 0.5rem 5rem;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #ffffff33;
+}
+
+.navbar div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar p {
+  margin-left: 1.5rem;
+}

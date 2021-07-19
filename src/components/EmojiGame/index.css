@@ -1,0 +1,11 @@
+/* Write your code here. */
+.main-bg {
+  background-image: linear-gradient(60deg, #9796f0, #fbc7d4);
+}
+
+main {
+  padding: 4rem 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,51 @@
+/* Write your code here. */
+section {
+  background-color: #ffffff33;
+  border: 5px solid #ffffff30;
+  padding: 5rem 3rem;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 30px;
+  color: white;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section div:first-of-type {
+  padding: 1rem 0;
+} */
+
+button {
+  font-weight: bold;
+  border-radius: 1.8rem;
+  padding: 1rem 1.3rem;
+  border: none;
+  background-color: #ffce27;
+  outline: 0;
+  color: #3d3d3d;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h2 {
+  color: #6a59ff;
+  font-size: 3rem;
+  margin: 0 0 2rem 0;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h3 {
+  font-size: 2.7rem;
+  margin: 0;
+  padding: 0;
+}
