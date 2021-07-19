@@ -19,3 +19,7 @@
 .navbar p {
   margin-left: 1.5rem;
 }
+
+.navbar h1 {
+  font-size: 1.5rem;
+}

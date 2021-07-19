@@ -10,12 +10,12 @@ function NavBar({count, status}) {
           src="https://assets.ccbp.in/frontend/react-js/game-logo-img.png"
           alt="Logo"
         />
-        <span>Emoji Game</span>
+        <h1>Emoji Game</h1>
       </div>
       {status ? (
         <div>
           <p>Score: {count}</p>
-          <p>Top Score: {localStorage.getItem('emojiGame') || 0}</p>
+          <p>Top Score: {localStorage.getItem('emojiGame') || '0'}</p>
         </div>
       ) : (
         <div>&nbsp;</div>

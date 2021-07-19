@@ -6,9 +6,9 @@ function WinLossCard({status, count, playAgainHandler}) {
   return (
     <section>
       <div>
-        <h1>You {status}!</h1>
-        <h3>{status === 'Won' ? 'Best Score' : 'Score'}</h3>
-        <h2>{count}/12</h2>
+        <h1>You {status}</h1>
+        <p>{status === 'Won' ? 'Best Score' : 'Score'}</p>
+        <p className="h2">{count}/12</p>
         <button type="button" onClick={playAgainHandler}>
           Play Again
         </button>
